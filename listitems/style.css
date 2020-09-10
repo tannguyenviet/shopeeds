@@ -1,0 +1,130 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+}
+.body{
+    background-color: #EEE;
+}
+.item-card{
+    width: 186px;
+    height: 313px;
+    margin: 10px;
+    background: #FFF;
+    
+}
+
+.item-card .image{
+    position: relative;
+    height:186px;
+    background-image: url('https://cf.shopee.vn/file/44102c703f9e81580315acce959610ce_tn');
+    color: #FFF;
+    font-size:12px;
+    border-block: solid 1px red;
+    background-color: #FFF;
+    background-size: cover;
+}
+.corner-left{
+    background-color:hsl(14, 89%, 54%);
+    position: absolute;
+    top:5px;   
+}
+.corner-right{
+    position: absolute;
+    right: 0;
+    top:0;
+    display: flex;
+    flex-direction: column;
+    background-color: hsla(48, 100%, 57%, 0.9);
+    font-weight:700;
+    text-align: center;
+}
+.corner-right .has-red{
+    color: hsl(10, 85%, 55%);
+    
+}
+.corner-bottom{
+    position: absolute;
+    bottom: 6px;
+    right: 12px;
+    background-color:hsla(0, 0%, 0%, 0.3);
+    border-radius:2px;
+    justify-content:center;
+    padding: 3px;
+}
+.detail-item{
+    display:flex;
+    flex-direction: column;
+    padding: 10px 10px 3px 10px;
+}
+.detail-item .name{
+    font-size: 14px;
+    line-height: 18px;
+}
+.detail-item .deal span{
+    color: hsl(10, 85%, 55%);
+    border: solid 1px  hsl(10, 85%, 55%);
+    font-size: 10px;
+    padding: 1px;
+}
+.detail-item .cost{
+    color: hsl(10, 85%, 55%);
+    display: flex;
+}
+.detail-item .cost .deliver{
+    flex-grow: 1;
+    display: flex;
+    justify-content: flex-end;
+}
+.rating{
+    display: flex;
+}
+.rating i{
+    transform: scale(0.7);
+}
+.star{
+    display: flex;
+    margin-left: 5px;   
+    justify-content: center;
+    /* align-items:center; */
+}
+.star i{
+    width: 10%;
+    transform: scale(0.6);
+    color:hsl(45, 100%, 62%);
+    font-size: 12px;
+    margin-left: 2px;
+}
+.scrip-item{
+    display: flex;
+    flex-grow: 1;
+    justify-content: flex-end;
+}
+.scrip-item span{
+    font-size: 12px;
+}
+.location-item{
+    display: flex;
+    justify-content: flex-end;
+    font-size: 12px;
+}
+.hover-footer{
+    background-color:   hsl(10, 85%, 55%);
+    font-size:14px;
+    text-align:center;
+    color: #FFF;
+    flex-grow: 1;
+    padding: 5px;
+    border-radius:
+    0px 0px 2px 2px;
+    opacity: 0;
+    transition: all 0.1s;
+    width: 185px;
+}
+.item-card:hover .hover-footer{
+    opacity: 1;
+}
+.item-card:hover {
+    border: solid 1px  hsl(10, 85%, 55%);
+}
