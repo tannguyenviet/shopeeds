@@ -1,0 +1,81 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.user-item{
+    display: flex;
+    padding: 20px 20px;
+    position: relative;
+
+}
+.shop-info{
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    padding:  5px;
+}
+.shop-info-nickname{
+    padding:  5px 0px;
+}
+.shop-info-username{
+    font-size: 16px;
+    padding: 5px 0;
+}
+.shop-info-follow{
+    display: flex;
+    font-size: 12px;
+}
+.follow-amount, .number-follow{
+    padding: 0 5px; 
+}
+.shop-avata-favorite{
+    margin-right: 10px;
+}
+.shop-avata-favorite i{
+    padding: 13px;
+    background: #EEE;
+    border: solid 1px #DDD;
+    border-radius: 50%;
+    color: #BBB;
+}
+.shop-avata-favorite span{
+    position: absolute;
+    bottom: 40px;
+    left: 20px;
+    font-size: 13px;
+    background: hsl(10, 85%, 55%);
+    border-radius: 2px;
+    color:#FFF;
+}
+.shop-command{
+    display: flex;
+    /* flex-direction: column; */
+    flex-grow: 1;
+    align-items: center;
+    justify-content: flex-end;
+}
+.wrap-shop-command-detail{
+    padding: 5px 15px;
+    border-left: solid 1px #EEE;
+    color:hsl(10, 85%, 55%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.shop-command-detail-number{
+    margin-left: 5px;
+}
+.shop-command-detail{
+    display: flex;
+    padding: 5px;
+    
+}
+.shop-command-component{
+    font-size: 12px;
+    color: #000;
+}
+.user-item:hover{
+    box-shadow: 0 1px 8px 0 rgba(0,0,0,.2);
+}
