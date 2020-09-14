@@ -1,0 +1,32 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+.recommand-search{
+    display:flex;
+    align-items: center;
+}
+.list-slider{
+    background: #FFF;
+    display: flex;
+    flex-grow: 1;
+}
+.recommand-search-wordmask{
+    display: flex;
+    flex-grow: 1;
+    flex-basis: 200px;
+    padding: 15px 0px;
+    background: #EEE;
+    margin: 10px 5px;
+    justify-content: center;
+    border: solid 1px #EEE;
+    border-radius: 3px;
+    filter: brightness(1);
+    font-size: 14px;
+    color:#FFF;
+}
+.recommand-search-wordmask:hover{
+    filter: brightness(1.05);
+}
+
